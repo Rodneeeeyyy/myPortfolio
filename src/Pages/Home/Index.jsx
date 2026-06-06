@@ -230,23 +230,23 @@ export default function App() {
     // Certificate data
     const certificates = [
         {
-            title: "SmartSweep Data Visualization",
+            title: "Introduction to Cumpoter Networking",
             image: "/images/cert1.jpg",
         },
         {
-            title: "Machine Learning",
+            title: "Invision for Beginners",
             image: "/images/cert2.jpg",
         },
         {
-            title: "The Agile Mindset",
+            title: "Machine Learning",
             image: "/images/cert3.jpg",
         },
         {
-            title: "Capstone Writing",
+            title: "Interfacing with Arduino",
             image: "/images/cert4.jpg",
         },
         {
-            title: "inVision for beginners",
+            title: "CCNA: Networking Fundamentals",
             image: "/images/cert5.jpg",
         }
     ];
