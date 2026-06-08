@@ -97,9 +97,9 @@ export default function App() {
                 entries.forEach((entry) => {
                     if (entry.isIntersecting) {
                         switch (entry.target.id) {
-                            case 'services':
-                                setServicesInView(true);
-                                break;
+                            // case 'services':
+                            //     setServicesInView(true);
+                            //     break;
                             case 'portfolio':
                                 setPortfolioInView(true);
                                 break;
@@ -148,7 +148,7 @@ export default function App() {
             { threshold: 0.1 }
         );
 
-        ['services', 'portfolio', 'resume', 'certificates', 'skills', 'contact'].forEach((id) => {
+        ['portfolio', 'resume', 'certificates', 'skills', 'contact'].forEach((id) => {
             const element = document.getElementById(id);
             if (element) observer.observe(element);
         });
@@ -321,7 +321,7 @@ export default function App() {
                             <Box component="span" sx={{ color: 'black', fontWeight: 'bold' }}>
                                 Rodney
                             </Box>
-                            ,{' '}
+                            , a Graphic Designer {' '}
                             <Box sx={{
                                 display: 'inline-block',
                                 color: '#0d6efd',
