@@ -321,7 +321,7 @@ export default function App() {
                             <Box component="span" sx={{ color: 'black', fontWeight: 'bold' }}>
                                 Rodney
                             </Box>
-                            , a Graphic Designer {' '}
+                            , {' '}
                             <Box sx={{
                                 display: 'inline-block',
                                 color: '#0d6efd',
