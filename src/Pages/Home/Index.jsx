@@ -36,7 +36,7 @@ import { color } from 'framer-motion';
 
 export default function App() {
     const [roleIndex, setRoleIndex] = React.useState(0);
-    const roles = [''];
+    const roles = ['a Mobile Application Development','a Graphic Designer', 'a Desktop Application Developer'];
     const [fadeIn, setFadeIn] = React.useState(true);
     const services = [
         { icon: <WebIcon sx={{ fontSize: 40 }} />, title: 'Desktop App Development', desc: 'Design and develop desktop applications.' },
@@ -352,14 +352,14 @@ export default function App() {
                             variant="contained"
                             sx={{
                                 mt: 4,
-                                backgroundColor: '#0d6efd',
+                                backgroundColor: '#02060b',
                                 px: { xs: 2, md: 4 },
                                 py: 1,
                                 fontSize: { xs: '0.9rem', md: '1rem' },
                                 boxShadow: '0 4px 10px rgba(0,0,0,0.3)',
                                 transition: 'background-color 0.3s ease',
                                 '&:hover': {
-                                    backgroundColor: '#084298',
+                                    backgroundColor: '#169f44',
                                 },
                             }}
                             onClick={handleDownloadCV}
@@ -473,7 +473,7 @@ contribute to organizational growth through innovative technology solutions.
                                 columnGap: 4,
                                 }}
                             >
-                                <Box>
+                                {/* <Box>
                                 <Typography variant="subtitle2" sx={{ fontWeight: 'bold', color: 'white' }}>
                                     Name:
                                 </Typography>
@@ -489,7 +489,7 @@ contribute to organizational growth through innovative technology solutions.
                                 <Typography variant="body2" sx={{ color: 'black' }}>
                                     Davao City, Philippines
                                 </Typography>
-                                </Box>
+                                </Box> */}
                 
                                 {/* <Box>
                                 <Typography variant="subtitle2" sx={{ fontWeight: 'bold', color: 'white' }}>
@@ -500,14 +500,14 @@ contribute to organizational growth through innovative technology solutions.
                                 </Typography>
                                 </Box> */}
                 
-                                <Box>
+                                {/* <Box>
                                 <Typography variant="subtitle2" sx={{ fontWeight: 'bold', color: 'white' }}>
                                     Email:
                                 </Typography>
                                 <Typography variant="body2" sx={{ color: 'black' }}>
                                     rodneymaestre0414@gmail.com
                                 </Typography>
-                                </Box>
+                                </Box> */}
                             </Box>
                             </Grid>
                         </Grid>
@@ -914,7 +914,7 @@ contribute to organizational growth through innovative technology solutions.
                             </Box>
                         </Grow>
                         </Grid>
-                        <Grid item xs={12} sm={6}>
+                        {/* <Grid item xs={12} sm={6}>
                         <Grow in={contactInView} timeout={1200}>
                             <form>
                             <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
@@ -927,7 +927,7 @@ contribute to organizational growth through innovative technology solutions.
                             </Box>
                             </form>
                         </Grow>
-                        </Grid>
+                        </Grid> */}
                     </Grid>
                     </Slide>
                 </Container>

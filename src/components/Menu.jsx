@@ -14,7 +14,7 @@ import {
 } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 
-const sections = ['home', 'portfolio', 'services', 'resume', 'skills', 'contact'];
+const sections = ['home', 'portfolio', 'resume', 'skills', 'contact'];
 
 export default function NavigationBar() {
   const [activeSection, setActiveSection] = React.useState('');
