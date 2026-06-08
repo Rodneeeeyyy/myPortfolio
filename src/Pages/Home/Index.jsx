@@ -97,9 +97,9 @@ export default function App() {
                 entries.forEach((entry) => {
                     if (entry.isIntersecting) {
                         switch (entry.target.id) {
-                            case 'services':
-                                setServicesInView(true);
-                                break;
+                            // case 'services':
+                            //     setServicesInView(true);
+                            //     break;
                             case 'portfolio':
                                 setPortfolioInView(true);
                                 break;
