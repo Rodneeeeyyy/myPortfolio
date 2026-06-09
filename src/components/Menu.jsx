@@ -87,7 +87,7 @@ export default function NavigationBar() {
           ml: { xs: 1, md: 3 }
         }}
       >
-        Developer
+        Portfolio
       </Typography>
     </Box>
 
