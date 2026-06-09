@@ -36,7 +36,7 @@ import { color } from 'framer-motion';
 
 export default function App() {
     const [roleIndex, setRoleIndex] = React.useState(0);
-    const roles = ['a Mobile Application Development','a Graphic Designer', 'a Desktop Application Developer'];
+    const roles = ['a Graphic Designer', 'a Website Developer'];
     const [fadeIn, setFadeIn] = React.useState(true);
     const services = [
         { icon: <WebIcon sx={{ fontSize: 40 }} />, title: 'Desktop App Development', desc: 'Design and develop desktop applications.' },
