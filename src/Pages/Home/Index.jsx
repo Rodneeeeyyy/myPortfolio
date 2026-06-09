@@ -372,7 +372,7 @@ export default function App() {
                             <Grid item xs={12} sm={4}>
                                 <Box sx={{ px: 2, py: { xs: 1.5, sm: 2 } }}>
                                     <Typography variant="body1" sx={{ fontWeight: 'bold' }}>Email</Typography>
-                                    <Typography variant="body2">rodneymaestre0414@gmail.com</Typography>
+                                    <Typography variant="body2">maestre.rodney0414@gmail.com</Typography>
                                 </Box>
                             </Grid>
                             <Grid item xs={12} sm={4} sx={{
@@ -561,7 +561,7 @@ contribute to organizational growth through innovative technology solutions.
                             {
                             title: 'Bachelor of Science in Information Technology',
                             school: 'Holy Cross of Davao College',
-                            year: '2018 - 2025',
+                            year: '2019 - 2025',
                             desc: 'College',
                             },
                             {
@@ -909,7 +909,7 @@ contribute to organizational growth through innovative technology solutions.
                             <Typography variant="body2" sx={{ color: '#ccc', mb: 2 }}>
                                 Interested in working together? Fill out the form or contact me via email/phone.
                             </Typography>
-                            <Typography variant="body2"><strong>Email:</strong> rodneymaestre0414@gmail.com</Typography>
+                            <Typography variant="body2"><strong>Email:</strong> maestre.rodney0414@gmail.com</Typography>
                             <Typography variant="body2"><strong>Phone:</strong> +63 9397556752</Typography>
                             </Box>
                         </Grow>
