@@ -230,23 +230,23 @@ export default function App() {
     // Certificate data
     const certificates = [
         {
-            title: "Introduction to Cumpoter Networking",
+            title: "Introduction to the Computer Networking",
             image: "/images/cert1.jpg",
         },
         {
-            title: "Invision for Beginners",
+            title: "InVision for Beginners",
             image: "/images/cert2.jpg",
         },
         {
-            title: "Machine Learning",
+            title: "Machine Learning Overview and it's Application",
             image: "/images/cert3.jpg",
         },
         {
-            title: "Interfacing with Arduino",
+            title: "Interfacing with Arduino 2023",
             image: "/images/cert4.jpg",
         },
         {
-            title: "CCNA: Networking Fundamentals",
+            title: "CCNA 200-301: Networking Fundamentals Online",
             image: "/images/cert5.jpg",
         }
     ];
