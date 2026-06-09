@@ -70,15 +70,7 @@ export default function NavigationBar() {
   >
     {/* Logo + Title */}
     <Box sx={{ display: 'flex', alignItems: 'center' }}>
-      <ImageList sx={{ ml: { xs: 0, md: 8 } }}>
-        <img
-          width={40} // smaller on mobile
-          style={{ width: '40px', height: 'auto', maxWidth: '70px' }}
-          src="/images/download (46).png"
-          alt="Logo"
-          loading="lazy"
-        />
-      </ImageList>
+     
       <Typography
         color="white"
         sx={{
